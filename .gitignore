@@ -1,0 +1,48 @@
+# 更新时间：2026-10-13 02:28:43 CST
+
+# 操作系统与根目录 IDE 文件
+.DS_Store
+Thumbs.db
+/.idea/
+/.vscode/
+*.swp
+*.swo
+
+# 本地环境变量和覆盖配置；保留可提交的示例文件
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local
+*.local.*
+*.local.yaml
+*.local.yml
+
+# 日志
+*.log
+/logs/
+
+# Node、Vite 与前端构建产物
+node_modules/
+dist/
+dist-ssr/
+coverage/
+*.tsbuildinfo
+.pnpm-store/
+.turbo/
+.vite/
+playwright-report/
+test-results/
+
+# Go 构建产物与 backend 本地运行文件
+*.test
+*.out
+/backend/bin/
+/backend/output/
+/backend/manifest/output/
+/backend/temp/
+/backend/temp.yaml
+/backend/main
+/backend/main.exe
+/backend/gf
+/backend/storage/
